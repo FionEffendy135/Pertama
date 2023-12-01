@@ -20,8 +20,8 @@ while True :
             if i%2 == 0:
                 print(i)
     
-    def ketiga():
-        exit()
+    # def ketiga():
+        
     
 
     masukan = input("Pilih salah satu pilihan : ")
@@ -34,7 +34,7 @@ while True :
         kedua()
 
     elif masukan == '3':
-        ketiga()
+        exit("Terima Kasih, Menutup Aplikasi")
 
     else:
         print("intput tidak valid")
