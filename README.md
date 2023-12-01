@@ -1,2 +1,1 @@
-# Pertama
-Repo Pertama
+Ini Berisi Tentang Tugas PY
