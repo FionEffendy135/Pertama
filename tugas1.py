@@ -1,3 +1,13 @@
+def pertama(awal,akhir):
+    for i in range(awal, akhir + 1):
+        if i%2 == 1:
+            print(i)
+    
+def kedua(awal,akhir):
+    for i in range(awal, akhir + 1):
+        if i%2 == 0:
+            print(i)
+
 while True :
     print("Menu Pilihan :")
     print("1. Bilangan Ganjil")
@@ -5,33 +15,16 @@ while True :
     print("3. Keluar")
     print("Silahkan Pilih Nomor")
 
-    
-    def pertama():
-        awal = int(input("Masukkan Angka Awal : "))
-        akhir = int(input("Masukkan Angka Akhir : "))
-        for i in range(awal, akhir + 1):
-            if i%2 == 1:
-                print(i)
-    
-    def kedua():
-        awal = int(input("Masukkan Angka Awal : "))
-        akhir = int(input("Masukkan Angka Akhir : "))
-        for i in range(awal, akhir + 1):
-            if i%2 == 0:
-                print(i)
-    
-    # def ketiga():
-        
-    
-
     masukan = input("Pilih salah satu pilihan : ")
+    if masukan == '1' or masukan == '2':
+        awal = int(input("Masukkan Angka Awal : "))
+        akhir = int(input("Masukkan Angka Akhir : "))
 
-    
-    if masukan == '1':
-        pertama()
+        if masukan == '1':
+            pertama(awal,akhir)
+        else:
+            kedua(awal,akhir)
         
-    elif masukan == '2':
-        kedua()
 
     elif masukan == '3':
         exit("Terima Kasih, Menutup Aplikasi")
