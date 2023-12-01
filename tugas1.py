@@ -3,6 +3,7 @@ while True :
     print("1. Bilangan Ganjil")
     print("2. Bilangan Genap")
     print("3. Keluar")
+    print("Silahkan Pilih Nomor")
 
     
     def pertama():
